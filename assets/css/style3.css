@@ -1,0 +1,625 @@
+body {
+    font-family: "Inconsolata", monospace;
+    color: #0d1e2d;
+    
+  }
+  
+  a {
+    color: #777;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #000;
+  }
+  
+  h1, h2, h3, h4, h5, h6, .font-heading {
+    font-family: "Raleway", sans-serif;
+  }
+  
+  .section {
+    padding: 7rem 0;
+  }
+  
+  .filters a {
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    font-family: nunito sans;
+    font-size: 16px;
+    left: -1;
+    z-index: 1;
+  }
+  
+  .filters a:hover, .filters a:focus, .filters a:active {
+    text-decoration: none;
+  }
+  
+  .filters a:hover:before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    bottom: 0;
+    height: 1px;
+    background-color: #000;
+  }
+  
+  .filters a.active {
+    color: #000;
+  }
+  
+  .filters a.active:before {
+    content: "";
+    position: absolute;
+    padding-left: 5px;
+    right: 10px;
+    bottom: 0;
+    height: 1px;
+    background-color: #000;
+  }
+  
+  .custom-navbar .navbar-brand {
+    font-size: 1.7rem;nav
+    font-family: Montserrat;
+    z-index: 1;
+  
+  }
+  .button{
+  
+  color:black;
+      background:white;
+      padding: 7px 22px;
+      margin: 0 0 0 15px;
+      border-radius: 8px;
+      border: 2px white;
+      transition: all ease-in-out 0.3s;
+      font-size: 13px;
+      white-space: nowrap;
+      z-index: 1;
+  }
+  .help
+  {
+    padding-top:40px;
+    font-family:sans-serif;
+    font-size:30px;
+    padding-left: 115px;
+    font-weight: bold;
+    z-index: 1;
+  }
+  .tulisan{
+    padding-left: 115px;
+    font-size: 14px;
+    font-family: sans-serif;
+    padding-top:-20px;
+  }
+  .buttona{
+    color:white;
+      background: #744FC6;
+      padding: 9px 15px;
+      margin: 0 0 0 15px;
+      border-radius: 8px;
+      border: 2px  #744FC6;
+      font-family: sans-serif;
+      margin-left: 115px;
+  }
+  .buttonb{
+    color:#744fc6;
+      background:#FFFFFF;
+      padding: 7px 22px;
+      margin: 0 0 0 15px;
+      border-radius: 8px;
+      border:#744fc6;
+      font-family: sans-serif;
+      border: 1px solid #744FC6;
+      box-sizing: border-box;
+  }
+  .gambarpojok1
+{
+position: absolute;
+left: -0.4%;
+right: -0.1%;
+top: 2.3%;
+bottom: -32.8%;
+width: 600px;
+height: 500px;
+background: linear-gradient(180deg, rgba(224, 196, 252, 0.9) 0%, rgba(144, 198, 253, 0.9) 100%);
+border-radius: 30px;
+transform: rotate(-20.43deg);
+margin-left: 1050px;
+margin-top: -200px;
+z-index: 1px;
+}
+.gamabar3{
+  position: relative;
+  padding-top: -1000px;
+  margin-top: -400px;
+  width: 370px;
+  height: 200px;
+  bottom: 150px;
+  left: 0px
+}
+.icon15{
+  margin-left: 700px;
+  margin-top: 300px;
+}
+.tulisan1
+{
+  font-size: 30px;
+  font-family: nunito sans;
+  font-weight: bold;
+  padding-top: 50px;
+  padding-left: 630px;
+}
+.boxedku
+{
+    position: absolute;
+    width: 600px;
+    height: 500px;
+    left: 550px;
+    top: 580px;
+    
+    background:#FFFFFF;
+    box-shadow: 0px 9px 20px rgba(167, 167, 167, 0.4);
+    border-radius: 16px;
+}
+.icont1
+{
+  position: absolute;
+width: 40px;
+height: 40px;
+left: 615px;
+top: 615px;
+z-index: 1;
+}
+.icont3
+{
+  position: absolute;
+width: 40px;
+height: 40px;
+left: 615px;
+top: 710px;
+z-index: 1;
+}
+.icont4
+{
+  position: absolute;
+width: 40px;
+height: 40px;
+left: 615px;
+top: 810px;
+z-index: 1;
+}
+.icont5
+{
+  position: absolute;
+width: 40px;
+height: 40px;
+left: 615px;
+top: 905px;
+z-index: 1;
+}
+.icont6
+{
+  position: absolute;
+width: 40px;
+height: 40px;
+left: 615px;
+top: 1000px;
+z-index: 1;
+}
+.tulis
+{
+  position: absolute;
+width: 171px;
+height: 20px;
+left: 680px;
+top: 597px;
+font-family: Nunito Sans;
+color: #744FC6;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 20px;
+z-index: 1;
+}
+.tulis1{
+  position: absolute;
+width: 607px;
+height: 20px;
+left: 685px;
+top: 640px;
+z-index: 1;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+}
+.tulis3
+{
+  position: absolute;
+width: 160px;
+height: 20px;
+left: 680px;
+top: 697px;
+font-family: Nunito Sans;
+color: #744FC6;
+font-style: normal;
+font-weight: 500;
+font-size: 198x;
+line-height: 20px;
+z-index: 1;
+}
+.tulis4{
+  position: absolute;
+width: 607px;
+height: 20px;
+left: 685px;
+top: 740px;
+z-index: 1;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+}
+.tulis5
+{
+  position: absolute;
+width: 160px;
+height: 20px;
+left: 680px;
+top: 797px;
+font-family: Nunito Sans;
+color: #744FC6;
+font-style: normal;
+font-weight: 500;
+font-size: 198x;
+line-height: 20px;
+z-index: 1;
+}
+.tulis6{
+  position: absolute;
+width: 607px;
+height: 20px;
+left: 685px;
+top: 840px;
+z-index: 1;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+}
+.tulis7
+{
+  position: absolute;
+width: 160px;
+height: 20px;
+left: 680px;
+top: 897px;
+font-family: Nunito Sans;
+color: #744FC6;
+font-style: normal;
+font-weight: 500;
+font-size: 198x;
+line-height: 20px;
+z-index: 1;
+}
+.tulis8{
+  position: absolute;
+width: 607px;
+height: 20px;
+left: 685px;
+top: 940px;
+z-index: 1;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+}
+.tulis9
+{
+  position: absolute;
+width: 160px;
+height: 20px;
+left: 680px;
+top: 997px;
+font-family: Nunito Sans;
+color: #744FC6;
+font-style: normal;
+font-weight: 500;
+font-size: 198x;
+line-height: 20px;
+z-index: 1;
+}
+.tulis10{
+  position: absolute;
+width: 607px;
+height: 20px;
+left: 685px;
+top: 1040px;
+z-index: 1;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+}
+.gambar15
+{
+  position: absolute;
+width: 200px;
+height: 280px;
+left: 0px;
+top: 1200px;
+background: linear-gradient(180deg, #CAC4FC 0%, #90C6FD 190.83%);
+}
+.tulis11
+{
+position: absolute;
+width: 442px;
+height: 115px;
+left: 130px;
+top: 1250px;
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 60px;
+}
+.tulis13
+{
+  position: absolute;
+width: 437px;
+height: 60px;
+left: 680px;
+top: 1260px;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+}
+.button7
+{
+  position: absolute;
+width: 120px;
+height: 28px;
+left: 675px;
+top: 1350px;
+background: #744FC6;
+box-shadow: 0px 10px 20px rgba(116, 79, 198, 0.25);
+border-radius: 8px;
+text-align: center;
+color: seashell;
+}
+.tulis14
+{
+  position: absolute;
+width: 450px;
+height: 30px;
+left: 490px;
+top: 1530px;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 55px;
+text-align: center;
+}
+.gambar16
+{
+  position: absolute;
+width: 300px;
+height: 300px;
+left: 584px;
+top: 1600px;
+border-radius: 16px;
+}
+.gambar19
+{
+  position: absolute;
+width: 1923px;
+height: 620px;
+left: 100px;
+top: 500px;
+
+opacity: 0.1;
+}
+.gambar31
+{
+  position: absolute;
+width: 600px;
+height: 300px;
+left: 0px;
+top: 2100px;
+
+}
+.tulisan19
+{
+  position: absolute;
+width: 302px;
+height: 55px;
+left: 529px;
+top: 2120px;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 55px;
+text-align: center;
+}
+.tulisan45
+{
+  position: absolute;
+width: 376px;
+height: 20px;
+left: 519px;
+top: 2190px;
+font-family: Nunito;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+}
+.gambar44
+{
+  position: absolute;
+width: 307px;
+height:  257px;
+left: 130px;
+top:  2240px;
+}
+.gambar45
+{
+  position: absolute;
+width: 444px;
+height: 56px;
+left: 680px;
+top: 2239px;
+}
+.tulis15
+{
+  position: absolute;
+width: 100px;
+height: 20px;
+left: 170px;
+top: 2255px;
+color:#BDBDBD;
+}
+.tulis16
+{
+  position: absolute;
+width: 100px;
+height: 20px;
+left: 702px;
+top: 2255px;
+color:#BDBDBD;
+}
+.tulis17
+{
+  position: absolute;
+width: 100px;
+height: 20px;
+left: 170px;
+top: 2330px;
+color:#BDBDBD;
+}
+.gambar46
+{
+  position: absolute;
+width: 500px;
+height: 200px;
+left: 130px;
+top: 2300px;
+}
+
+.karyaku1{
+  position: absolute;
+  top: 2500px;
+  left: 130px;
+  font-family: sans-serif;
+  font-size: 40px;
+}
+.karyaku2{
+  position: absolute;
+  top: 2650px;
+  left: 130px;
+  font-family: sans-serif;
+  font-size: 14px;     
+}
+.icona{
+  position: absolute;
+  top: 2710px;
+  left:130px;
+}
+              
+.iconb{
+  position: absolute;
+  top: 2710px;
+  left: 170px;
+}
+
+.iconc{
+  position: absolute;
+  top: 2710px;
+  left: 210px;           
+}
+.icond{
+  position: absolute;
+  top: 2710px;
+  left: 250px;               
+}
+.textku{
+  position: absolute;
+  top: 2550px;
+  left: 500px;
+  font-weight: bold;
+  font-family: nonito sans;
+  font-size: 16px;
+}
+.baris1
+{
+  line-height: 0.3cm;
+  font-size: 16px;
+  font-family: nonito sans;
+  position: absolute;
+  left: 500px;
+  top: 2600px;
+}
+.textku1{
+position: absolute;
+top: 2550px;
+left: 750px;
+font-weight: bold;
+font-family: nonito sans;
+font-size: 16px;
+}
+.baris2
+{
+ line-height: 0.3cm;
+ font-size: 16px;
+ font-family: nonito sans;
+ position: absolute;
+ left: 750px;
+ top: 2600px;
+}
+.textku3{
+ position: absolute;
+ top: 2550px;
+ left: 1100px;
+ font-weight: bold;
+ font-family: nonito sans;
+ font-size: 16px;
+}
+.baris3
+{
+ line-height: 0.3cm;
+ font-size: 16px;
+ font-family: nonito sans;
+ position: absolute;
+ left: 1100px;
+ top: 2600px;
+}
+.kotakkuya{
+ position: absolute;
+ width: 1500px;
+ height:30px;
+ background:#838383;
+ left: -1200px;
+ bottom: -100px;
+}
+
+.tulisanD{
+  position: absolute;
+  font-size: smaller;
+  margin-left: -540px;
+  bottom: -105px;
+  color: white;
+}
